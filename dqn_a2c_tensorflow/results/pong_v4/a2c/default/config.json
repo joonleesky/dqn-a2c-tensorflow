@@ -1,0 +1,1 @@
+{"env": "pong", "agent_type": "a2c", "network_type": "nature", "total_timesteps": 10000000, "num_actors": 16, "log_path": "./results/pong_v4/a2c/test", "log_freq": 800}
