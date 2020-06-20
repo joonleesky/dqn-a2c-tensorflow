@@ -6,10 +6,14 @@ Tensorflow implementation of Deep Reinforcement Learning algorithms: DQN & A2C: 
 [1] [(DQN) Human-level control through deep reinforcement learning ](https://www.nature.com/articles/nature14236) <br>
 [2] [(A2C) Asynchronous Methods for Deep Reinforcement Learning ](https://arxiv.org/abs/1602.01783)
 
+<br>
+
 ## Requirements
 1. python 3.7
 2. tensorflow 1.14
 3. gym
+
+<br>
 
 ## Usage
 First, install prerequisites:
@@ -23,6 +27,8 @@ Train Pong with DQN model
 Train Poing with A2C model
 
 `python main.py --env PongNoFrameskip-v4 --agent_type a2c --total_timesteps 10000000`
+
+<br>
 
 ## Results
 
